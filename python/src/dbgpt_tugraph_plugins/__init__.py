@@ -18,7 +18,9 @@ def get_plugin_binary_path(
     """Get plugin binary file path.
 
     Examples:
-        >>> from
+        >>> from dbgpt_tugraph_plugins import get_plugin_binary_path
+        >>> leiden_bin_abs_path = get_plugin_binary_path("leiden")
+        >>> print(leiden_bin_abs_path)
 
     Args:
         name (str): Plugin name. Defaults to "leiden".
