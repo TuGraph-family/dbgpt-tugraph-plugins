@@ -12,7 +12,7 @@ TuGraph plugins are written in cpp and are compiled into dynamic link libraries.
 1. First install the package using pip:
 
 ```bash
-pip install dbgpt-tugraph-plugins>=0.1.0rc1 -U -i https://pypi.org/simple
+pip install dbgpt-tugraph-plugins>=0.1.1 -U -i https://pypi.org/simple
 ```
 
 2. Then you can use the plugins in python:

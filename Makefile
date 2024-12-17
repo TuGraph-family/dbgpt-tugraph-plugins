@@ -3,7 +3,7 @@
 SHELL=/bin/bash
 VENV = venv
 
-BUILD_VERSION ?= 0.1.0
+BUILD_VERSION ?= 0.1.1
 
 # Detect the operating system and set the virtualenv bin directory
 ifeq ($(OS),Windows_NT)
