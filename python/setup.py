@@ -8,7 +8,7 @@ from setuptools import find_packages, setup
 
 ROOT_DIR = os.path.dirname(__file__)
 
-VERSION = os.environ.get("BUILD_VERSION", "0.1.0")
+VERSION = os.environ.get("BUILD_VERSION", "0.1.1")
 
 
 def _find_bin_files():
